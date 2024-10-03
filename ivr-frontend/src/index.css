@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  font-family: "Montserrat", sans-serif;
+}
+
+input::placeholder{
+  font: normal normal normal 11px/14px Montserrat;
+  letter-spacing: 0px;
+  color: #989898;
+}
+
+body{
+  background-color: #F5F5F5;
+  margin: 0;
+  padding: 0;
+}
+.header{
+  font: normal normal bold 20px/24px Montserrat;
+  text-transform: uppercase;
+  color: white;
+  background-color:#0B1C34;
+  margin: 0px;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header img{
+  width:30px
+
+}
+.card-style{
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+.card-style .card-title{
+  font: normal normal 600 16px/19px Montserrat;
+  letter-spacing: 0px;
+  color: #0B1C34;
+  margin: 0;
+}
+.card-style .intro-text{
+  font: normal normal normal 10px/13px Montserrat;
+  letter-spacing: 0px;
+  color: #0B1C34; 
+}
+.card-style input{
+  font: normal normal bold 13px/16px Montserrat;
+  letter-spacing: 0px;
+  color: #0B1C34;
+  background-color: #F5F5F5;
+  border-radius: 4px;
+}
+.card-style .sub-title{
+  font: normal normal 600 12px/15px Montserrat;
+  letter-spacing: 0px;
+  color: #0B1C34;
+  margin-bottom: 0;
+}
+.card-style .input-label{
+  font: normal normal normal 11px/14px Montserrat;
+  letter-spacing: 0px;
+  color: #0B1C34;
+}
+.greeting-message label{
+  background-color: #F5F5F5;
+  padding: 25px 10px;
+  text-align: center;
+  display: block;
+  border-radius: 4px;
+}
+.greeting-message label p{
+  font-size: 15px;
+  color: #307CD8;
+  font-weight: 300;
+}
+.greeting-message label p span{
+  font-weight: 600;
+}
+.menu-design{
+  padding: 15px;
+  margin-bottom: 15px;
+}
+.menu-design h3{
+  font: normal normal 600 16px/19px Montserrat;
+  letter-spacing: 0px;
+  color: #0B1C34;
+  margin: 0;
+}
+.menu-design p{
+  font: normal normal normal 10px/13px Montserrat;
+  letter-spacing: 0px;
+  color: #0B1C34; 
+  margin-bottom: 0;
+}
+.text-button{
+  font: normal normal 600 11px/10px Montserrat;
+letter-spacing: 0.33px;
+color: #307CD8;
+}
+.audio-file{
+  background-color: #F5F5F5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.audio-file p{
+  margin: 0;
+  font: normal normal bold 13px/16px Montserrat;
+  letter-spacing: 0px;
+  color: #0B1C34;
+}
+.audio-file .delete-button{
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+}
+.upload-new-file{
+  font: normal normal 600 10px/13px Montserrat;
+  letter-spacing: 0.3px;
+  color: #307CD8;
+  text-transform: uppercase;
+  background-color: transparent !important;
+  padding: 0 !important;
+  text-align: initial !important;
+  border-radius: 0 !important;
+  margin-top: 10px;
+}
